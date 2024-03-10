@@ -7,7 +7,7 @@ const server = HTTP.createServer((request, response) => {
 		"Access-Control-Allow-Methods": "GET, PING, OPTIONS",
 		"Content-Type": "text/html"
 	} as const);
-	response.end("<h3>Copy me, the url above!</h3>");
+	response.end("<h3>You are G4y!</h3>");
 });
 
 
